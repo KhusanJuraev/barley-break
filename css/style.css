@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Berlin Sans FB";
+}
+body {
+    background: #000;
+}
+h1 {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.cell, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.field {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border: 1px solid #d2d2d2;
+    color: #111;
+    font-size: 36px;
+    position: absolute;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+p{
+    font-size: 20px;
+    color: #f1f1f1;
+    margin: 10px 0;
+}
