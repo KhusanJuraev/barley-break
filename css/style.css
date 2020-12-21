@@ -5,34 +5,30 @@
     font-family: "Berlin Sans FB";
 }
 body {
-    background: #000;
-}
+    background: #000; }
+
 h1 {
     width: 100%;
     text-transform: uppercase;
-    letter-spacing: 10px;
-}
+    letter-spacing: 10px; }
 
 .cell, .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center; }
 
 .container {
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100vh;
-}
+    height: 100vh; }
 
 .field {
     width: 400px;
     height: 400px;
     background: #fff;
     position: relative;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; }
 
 .cell {
     width: 100px;
@@ -43,11 +39,9 @@ h1 {
     font-size: 36px;
     position: absolute;
     cursor: pointer;
-    transition: .1s ease-in-out;
-}
+    transition: .1s ease-in-out; }
 
-p{
+p {
     font-size: 20px;
     color: #f1f1f1;
-    margin: 10px 0;
-}
+    margin: 10px 0; }
